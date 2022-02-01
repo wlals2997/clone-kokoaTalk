@@ -12,7 +12,7 @@
     margin-bottom: 30px;
   }
   .Welcome-header .Welcome-header__text{
-   opacity: var(--light-gray);
+   opacity: 0.7;
     /* color: gray; */
     width: 50%;
   }
