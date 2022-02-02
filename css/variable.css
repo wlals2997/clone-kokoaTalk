@@ -1,14 +1,16 @@
-:root{
-    /* color */
-    --yellow:#FAE100;
-    --light-gray:opacity: 0.7;
+:root {
+  /* color */
+  --yellow: #fae100;
+  --light-gray: 0.7;
 
-    /* Font weight */
-    --weight-semi-bold:600;
-    --weight-bold:700;
+  /* Font weight */
+  --weight-semi-bold: 600;
+  --weight-bold: 700;
 
-    /* size */
-    --size-border-radius:5px;
-    /* Animation */
- --animation--duration:3s;
+  /* size */
+  --size-border-radius: 5px;
+  /* Animation */
+  --animation--duration: 3s;
+  /* space */
+  --horizontal-space: 30px;
 }

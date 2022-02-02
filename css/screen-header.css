@@ -2,7 +2,7 @@
     display: flex;
     justify-content: space-between;
    
-    padding: 30px;
+    padding: var(--horizontal-space);
     padding-top: 51px;
     position: sticky;
     top: 0px;
