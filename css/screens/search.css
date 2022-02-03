@@ -1,0 +1,108 @@
+.main-screen {
+  padding: 0px var(--horizontal-space);
+}
+.find-icons {
+  display: flex;
+  justify-content: space-around;
+}
+.find-icons__icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.find-icons__icon i {
+  padding-bottom: 25px;
+}
+.find-icons__icon span {
+  font-weight: 500;
+  padding-bottom: 30px;
+}
+
+.recommed-friends {
+  padding: 25px 0px;
+  border-top: var(--main-border);
+  border-bottom: var(--main-border);
+}
+.recommed-frineds__title {
+  font-size: 16px;
+  opacity: var(--light-gray);
+}
+.recommend-friends__text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 100px 0;
+  opacity: var(--light-gray);
+  font-size: 18px;
+}
+.openchat__header {
+  display: flex;
+  justify-content: space-between;
+  padding: 25px 0px;
+}
+.openchat__title {
+  font-size: 16px;
+  opacity: var(--light-gray);
+}
+.openchat span {
+  font-size: 17px;
+  opacity: var(--light-gray);
+}
+.openchat-posts {
+  display: flex;
+  justify-content: space-between;
+}
+.openchat-posts__title {
+  font-weight: var(--weight-semi-bold);
+  margin-bottom: 10px;
+}
+.openchat-posts__hashtags {
+  text-transform: uppercase;
+  opacity: var(--light-gray);
+  margin-bottom: 7px;
+}
+.openchat-posts__members {
+  display: flex;
+  align-items: center;
+}
+.openchat-posts__members img {
+  width: 25px;
+  height: 25px;
+  border-radius: 50px;
+  margin-right: 10px;
+}
+.openchat-posts__members-count {
+  opacity: var(--light-gray);
+}
+.openchat-posts__members .divider {
+  margin: 0px 8px;
+  height: 17px;
+  width: 2px;
+  background-color: #e7e7e7;
+}
+.openchat-posts__members-state {
+  color: #ff6dc7;
+}
+.openchat-posts__thumbnail img {
+  width: 120px;
+  height: 120px;
+  border-radius: 10px;
+}
+.openchat-posts__thumbnail {
+  position: relative;
+}
+.openchat-posts__like {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+  font-size: 15px;
+  padding: 5px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+}
+.openchat-posts__like-count {
+  margin-left: 5px;
+}

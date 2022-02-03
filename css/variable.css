@@ -13,4 +13,6 @@
   --animation--duration: 3s;
   /* space */
   --horizontal-space: 30px;
+  /* border */
+  --main-border:1px solid rgba(0, 0, 0, 0.1);  
 }

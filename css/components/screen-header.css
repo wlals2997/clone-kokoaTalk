@@ -19,3 +19,15 @@
 .header__icons i{
     margin-left: 44px;
 }
+.header__icons span:nth-child(2){
+    position: relative;
+}
+.header__icons-dot{
+    width: 5px;
+    height: 5px;
+    border-radius: 50px;
+    background-color: tomato;
+    position: absolute;
+    left: 75px;
+    bottom: 27px;
+}
