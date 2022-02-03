@@ -1,7 +1,7 @@
 .screen-header{
     display: flex;
     justify-content: space-between;
-   
+   align-items: center;
     padding: var(--horizontal-space);
     padding-top: 51px;
     position: sticky;
@@ -10,6 +10,7 @@
     left: 0px;
     box-sizing: border-box;
     width: 100%;
+   
 }
 .screen-header__title{
     font-size: 36px;
