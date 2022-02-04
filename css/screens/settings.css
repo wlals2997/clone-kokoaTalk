@@ -1,0 +1,21 @@
+.setting-list__items {
+  padding: 20px 0px;
+  border-bottom: var(--main-border);
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.setting-list__items i {
+  margin-right: 30px;
+  font-size: 25px;
+  width: 30px;
+}
+.setting-list__items-column:last-child{
+    opacity: 0.5;
+}
+.setting-list__items-text i{
+color: red;
+font-size: 15px;
+
+}
