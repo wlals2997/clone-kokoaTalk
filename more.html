@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+      integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Friends - Kokoa clone</title>
+  </head>
+  <body>
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>No Service</span>
+        <i class="fas fa-wifi"></i>
+      </div>
+      <div class="status-bar__column">
+        <span>18:43</span>
+      </div>
+      <div class="status-bar__column">
+        <span><i class="fas fa-lock"></i></span>
+        <span>11%</span>
+        <span><i class="fas fa-battery-three-quarters"></i></span>
+        <span><i class="fas fa-bolt"></i></span>
+      </div>
+    </div>
+    <header class="screen-header">
+      <h1 class="screen-header__title">More</h1>
+      <div class="header__icons">
+        <span>
+          <i class="fas fa-search fa-lg"></i>
+        </span>
+        <span>
+          <i class="fas fa-music fa-lg"></i>
+        </span>
+        <span>
+          <div class="header__icons-dot"></div>
+          <i class="fas fa-cog fa-lg"></i>
+        </span>
+      </div>
+    </header>
+    <main class="main-screen">
+      <div class="user-component">
+        <div class="user-component__column">
+          <img
+            src="https://avatars.githubusercontent.com/u/85855544?s=400&u=e85531af23a7a74d9a5ded7f6d8dc2e91ea54864&v=4"
+            alt="profile"
+            class="user-component__img user-component__img--xl"
+          />
+          <div class="user-component__text">
+            <h4 class="user-component__title">이지민</h4>
+            <h6 class="user-component__subtitle">
+              +82 10-1234-5678 <i class="fas fa-info-circle"></i>
+            </h6>
+          </div>
+        </div>
+        <div class="user-component__column">
+          <i class="far fa-comment-alt fa-2x"></i>
+        </div>
+      </div>
+      <div class="icon-row moreicon-row">
+        <div class="icon-row__icon ">
+          <i class="far fa-calendar-check fa-2x"></i>
+          <span>캘린더</span>
+        </div>
+        <div class="icon-row__icon ">
+          <i class="fas fa-archive fa-2x"></i>
+          <span>대화저장소</span>
+        </div>
+        <div class="icon-row__icon ">
+          <i class="far fa-smile-wink fa-2x"></i>
+          <span>이모티콘</span>
+        </div>
+        <div class="icon-row__icon ">
+          <i class="fas fa-palette fa-2x"></i>
+          <span>테마</span>
+        </div>
+        <div class="icon-row__icon ">
+            <i class="fas fa-link fa-2x"></i>
+          <span>계정</span>
+        </div>
+        <div class="icon-row__icon ">
+            <i class="far fa-comments fa-2x"></i>
+          <span>오픈챗</span>
+        </div>
+      </div>
+      <div class="more-suggestion">
+        <h4 class="more-suggestion__title"> Suggestions</h4>
+        <div class="more-suggestion__icons">
+          <div class="more-suggestion__icon">
+            <div class="more-suggestion__icon-img">
+              <i class="fas fa-quote-right"></i>
+            </div>
+            <span class="more-suggestion__icon-text">Kokoa Story</span>
+          </div>
+          <div class="more-suggestion__icon">
+            <div class="more-suggestion__icon-img">
+              <i class="fas fa-paw"></i>
+            </div>
+            <span class="more-suggestion__icon-text">Kokoa friends</span>
+          </div>
+          <div class="more-suggestion__icon">
+            <div class="more-suggestion__icon-img">
+              <i class="fas fa-gamepad"></i>
+            </div>
+            <span class="more-suggestion__icon-text">Kokoa game</span>
+          </div>
+        </div>
+      </div>
+    </main>
+    <nav class="nav">
+      <ul class="nav__list">
+        <li class="nav__btn">
+          <a class="nav__link" href="friends.html"
+            ><i class="far fa-user fa-2x"></i
+          ></a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="chats.html">
+            <span class="nav__notification badge">1</span>
+            <i class="far fa-comment fa-2x"></i>
+          </a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="search.html"
+            ><i class="fas fa-search fa-2x"></i
+          ></a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="more.html">
+            <div class="ellipsis__notification"></div>
+            <i class="fas fa-ellipsis-h fa-2x"></i>
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </body>
+</html>

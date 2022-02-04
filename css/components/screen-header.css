@@ -22,6 +22,9 @@
 .header__icons span:nth-child(2){
     position: relative;
 }
+.header__icons span:nth-child(3){
+    position: relative;
+}
 .header__icons-dot{
     width: 5px;
     height: 5px;
