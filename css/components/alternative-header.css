@@ -1,17 +1,32 @@
-.alt-header{
-    margin-bottom: 15px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: var(--horizontal-space);
+.alt-header {
+  /* margin-bottom: 15px; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: var(--horizontal-space);
 }
-.alt-header__title{
-    font-size: 30px;
-    font-weight: var(--weight-semi-bold);
+.alt-header__column {
+  width: 33%;
 }
-.alt-header__column:first-child{
-    margin-right: auto;
+.alt-header__title {
+  font-size: 30px;
+  font-weight: var(--weight-semi-bold);
 }
-.alt-header__column:last-child{
-    margin-left: auto;
+
+.alt-header__column:first-child {
+  margin-right: auto;
 }
+.alt-header__column:nth-child(2){
+    text-align: center;
+}
+.alt-header__column:last-child {
+  margin-left: auto;
+  display: flex;
+  justify-content: flex-end;
+}
+.alt-header__column span:last-child {
+  margin-left: 20px;
+}
+/* .alt-header__title-chat{
+    padding-left: 60px;
+} */
