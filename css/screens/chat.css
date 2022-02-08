@@ -148,7 +148,7 @@ animation: fadein 0.8s linear;
 .message-input:focus-within button{
   opacity: 0;
 }
-input:focus{
+.message-input input:focus{
   width: 98vw;
   transform: translateX(-12%) translateY(-80px);
 }
