@@ -1,6 +1,6 @@
 #chat-screen {
   background-color: #abc1d1;
-  height: 1000vh;
+  height: 500vh;
 }
 #chat-screen .status-bar,
 #chat-screen .alt-header {
@@ -16,11 +16,23 @@
   top: 10px;
   z-index: 1;
 }
+@keyframes fadein{
+  from{
+    transform: translateY(30px);
+opacity: 0;
+  }
+  to{
+    transform: none;
+opacity: 1;
+  }
+}
 .main-chat {
-  padding-top: 7px;
+  
+  padding-top:10px;
   display: flex;
   flex-direction: column;
   align-items: center;
+animation: fadein 0.8s linear;
 }
 .chat__timestamp {
   color: white;
@@ -84,9 +96,10 @@
   background-color: white;
   display: flex;
   justify-content: space-between;
-  padding: 5px 45px;
+  padding: 5px 40px;
   align-items: center;
   box-sizing: border-box;
+  transition: transform 0.3s ease-in-out;
 }
 .message-input i {
   opacity: 0.5;
@@ -103,6 +116,7 @@
   width: 100%;
   border: var(--main-border);
   border-radius: 25px;
+  transition: all 0.3s ease-in-out;
 }
 .message-input__column:last-child > span,
 .message-input__column:last-child button {
@@ -128,4 +142,22 @@
 }
 .message-input__column:last-child button i {
   opacity: 1;
+}
+.message-input:focus-within .message-input__column:first-child,
+.message-input:focus-within .fa-grin,
+.message-input:focus-within button{
+  opacity: 0;
+}
+input:focus{
+  width: 98vw;
+  transform: translateX(-12%) translateY(-80px);
+}
+.message-input .message-input__column:first-child,
+.message-input .fa-grin,
+.message-input button{
+  transition: opacity .3s ease-in-out;
+}
+.message-input:focus-within{
+  
+  transform: translateY(80px);
 }

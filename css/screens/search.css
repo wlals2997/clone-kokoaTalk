@@ -90,3 +90,21 @@
 .openchat-posts__like-count {
   margin-left: 5px;
 }
+@keyframes heartBeat{
+  0%{
+color: white;
+transform: none;
+  }
+  50%{
+color: tomato;
+transform: scale(1.5);
+  }
+  100%{
+color: white;
+transform: none;
+  }
+}
+.openchat-posts__like:hover i{
+  will-change: transform;
+  animation: heartBeat 1s linear infinite;
+}

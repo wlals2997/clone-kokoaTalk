@@ -1,36 +1,46 @@
-.screen-header{
-    display: flex;
-    justify-content: space-between;
-   align-items: center;
-    padding: var(--horizontal-space);
-    padding-top: 51px;
-    position: sticky;
-    top: 0px;
-    right: 0px;
-    left: 0px;
-    box-sizing: border-box;
-    width: 100%;
-   
+.screen-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: var(--horizontal-space);
+  padding-top: 51px;
+  position: sticky;
+  top: 0px;
+  right: 0px;
+  left: 0px;
+  box-sizing: border-box;
+  width: 100%;
 }
-.screen-header__title{
-    font-size: 36px;
-    font-weight: var(--weight-semi-bold);
+.screen-header__title {
+  font-size: 36px;
+  font-weight: var(--weight-semi-bold);
 }
-.header__icons i{
-    margin-left: 44px;
+.header__icons i {
+  margin-left: 44px;
 }
-.header__icons span:nth-child(2){
-    position: relative;
+.header__icons span:nth-child(2) {
+  position: relative;
 }
-.header__icons span:nth-child(3){
-    position: relative;
+.header__icons span:nth-child(3) {
+  position: relative;
 }
-.header__icons-dot{
-    width: 5px;
-    height: 5px;
-    border-radius: 50px;
-    background-color: tomato;
-    position: absolute;
-    left: 75px;
-    bottom: 27px;
+.header__icons-dot {
+  width: 5px;
+  height: 5px;
+  border-radius: 50px;
+  background-color: tomato;
+  position: absolute;
+  left: 75px;
+  bottom: 27px;
+}
+@keyframes settingSpin {
+  from{
+transform: none;
+  }
+  to{
+transform: rotateZ(360deg);
+  }
+}
+.header__icons .fa-cog:hover{
+animation: settingSpin 1s linear infinite;
 }
