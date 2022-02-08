@@ -121,7 +121,7 @@
   background-color: white;
   display: flex;
   justify-content: space-between;
-  padding: 5px 40px;
+  padding: 5px 10px;
   align-items: center;
   box-sizing: border-box;
   transition: transform 0.3s ease-in-out;

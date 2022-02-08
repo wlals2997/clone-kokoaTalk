@@ -19,6 +19,7 @@
   opacity: var(--light-gray);
   font-size: 18px;
 }
+
 .openchat__header {
   display: flex;
   justify-content: space-between;
