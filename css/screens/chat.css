@@ -18,7 +18,7 @@
 }
 @keyframes fadein {
   from {
-    transform: translateY(30px);
+    transform: translateZ(20px);
     opacity: 0;
   }
   to {
@@ -53,7 +53,7 @@
 @keyframes replyMessageFadein {
   from {
     opacity: 0;
-    transform: translateX(50px);
+    transform: translateX(80px);
   }
   to {
     transform: none;
@@ -66,11 +66,10 @@
   display: flex;
   margin-top: 28px;
   margin-bottom: 24px;
-
-  animation: messageFadein 0.3s linear;
+  animation: messageFadein 1s linear;
 }
 .message-row:last-child {
-  animation: replyMessageFadein 0.8s linear forwards;
+  animation: replyMessageFadein 1.8s linear forwards;
 }
 .message-row img {
   width: 50px;
