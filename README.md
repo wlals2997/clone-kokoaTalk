@@ -20,12 +20,9 @@
 - 한 css파일에 코드들을 작성하지 않고 css폴더에 components와 screens폴더를 따로 만들어 가독성과 이해하기 쉽도록 구분하였습니다.
 - 가독성이 좋도록 BEM 규칙으로 작성하였습니다
 
-
+👉🏼[자세한 기록](https://www.notion.so/1-57221c78136a469d87977854f48a7f3a)
 
 ## 3. 화면
-#### 초기화면
-
-
-#### friends, chat, chats, friends, more,search, setting화면
-<img src="https://postfiles.pstatic.net/MjAyMjAyMjJfMjM4/MDAxNjQ1NTE0Nzg3OTk0.uMPqLRlXTScKttWLNCqRWHg25dONVf724jdBiAdeWtwg.93b_IY0d02wVQpUj8Hgl6fqMw0yzOX9BZ4Qd01DsHw0g.JPEG.wlals2997/%ED%88%AC%EB%91%90%ED%99%94%EB%A9%B42.JPG?type=w966">
+#### 코코아톡 화면
+<img src="https://postfiles.pstatic.net/MjAyMjAzMDZfMjcy/MDAxNjQ2NTU4ODM2ODUy.0BvgE6eJnw9dFBqJDwuldXT9SUJqErj-6ACZ8mL6kaAg.S_wPePlXko5Z4fYljfbNPbioW6HZnmIdOrD1xnjM27sg.GIF.wlals2997/%EC%BD%94%EC%BD%94%EC%95%84%ED%86%A1.gif?type=w966">
 
