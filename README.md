@@ -1,7 +1,7 @@
 # KoKoaTalk by HTML,CSS
 
 ### HTML,CSS로 만든 코코아톡 클론코딩 사이트입니다. 
-👉🏼[웹페이지 링크](https://wlals2997.github.io/MyTODO/)
+👉🏼[웹페이지 링크](https://wlals2997.github.io/kokoatalk-clone/)
 
 #### 목차
 1. [구현목록](#1-%EA%B5%AC%ED%98%84%EB%AA%A9%EB%A1%9D)
